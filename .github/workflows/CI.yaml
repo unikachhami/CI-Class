@@ -27,9 +27,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest streamlit
 
-    - name: run tests
+    - name: runs tests
       run: |
-        pytest _test.py
+        pytest .github/workflows/_test.py
 
 
     
